@@ -15,6 +15,7 @@
 		185D59BD1DE7DB17002D285C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185D59BB1DE7DB17002D285C /* LaunchScreen.storyboard */; };
 		185D59C81DE7DB17002D285C /* GitXcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D59C71DE7DB17002D285C /* GitXcodeTests.swift */; };
 		185D59D31DE7DB17002D285C /* GitXcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D59D21DE7DB17002D285C /* GitXcodeUITests.swift */; };
+		185D59E11DE7DF93002D285C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D59E01DE7DF93002D285C /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		185D59CE1DE7DB17002D285C /* GitXcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitXcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185D59D21DE7DB17002D285C /* GitXcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitXcodeUITests.swift; sourceTree = "<group>"; };
 		185D59D41DE7DB17002D285C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185D59E01DE7DF93002D285C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				185D59AF1DE7DB16002D285C /* AppDelegate.swift */,
 				185D59B11DE7DB16002D285C /* ViewController.swift */,
+				185D59E01DE7DF93002D285C /* MapViewController.swift */,
 				185D59B31DE7DB16002D285C /* Main.storyboard */,
 				185D59B91DE7DB17002D285C /* Assets.xcassets */,
 				185D59BB1DE7DB17002D285C /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				185D59B21DE7DB16002D285C /* ViewController.swift in Sources */,
 				185D59B01DE7DB16002D285C /* AppDelegate.swift in Sources */,
 				185D59B81DE7DB17002D285C /* GitXcode.xcdatamodeld in Sources */,
+				185D59E11DE7DF93002D285C /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
